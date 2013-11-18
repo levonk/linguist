@@ -24,6 +24,17 @@
 - (^|/)config.guess$
 - (^|/)config.sub$
 
+# Java/JVM/Scala/Clojure deps
+- target/
+- .settings/
+- (^|/)pom.xml$
+- (^|/)build.xml$
+- (^|/)build.gradle$
+- (^|/)sbt$
+- (^|/).travis.yml$
+- (^|/)project.clj$
+
+
 # Node dependencies
 - node_modules/
 
@@ -145,6 +156,17 @@
 - gitmodules$
 - ^README$
 - ^readme$
+- ^README.txt$
+- ^README.md$
+- ^CHANGES.txt$
+- ^CHANGES.md$
+- ^CONTRIBUTING.txt$
+- ^CONTRIBUTING.md$
+- ^LICENSE.txt$
+- ^LICENSE.md$
+- ^NOTICE$
+- ^NOTICE.txt$
+- ^NOTICE.md$
 
 # Test fixtures
 - ^[Tt]est/fixtures/
